@@ -6,5 +6,4 @@ export function Header() {
             <strong>Ignite Feed</strong>
         </header>
     )
-
 }
