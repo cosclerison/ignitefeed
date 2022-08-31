@@ -9,14 +9,11 @@ export function App() {
   return (
     <div>
       <Header />
-
       <div className={styles.wrapper}>
-
         <Sidebar />
-        <main>
-          <Post />
-        </main>
-    
+          <main>
+            <Post />
+          </main>
       </div>
     </div>
   )
