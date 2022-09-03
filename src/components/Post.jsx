@@ -1,3 +1,4 @@
+import { Comment } from './Comment';
 import styles from './Post.module.css';
 
 export function Post() {
@@ -25,7 +26,7 @@ export function Post() {
                 <p>
                     <a href="">#novoprojeto</a>{' '}
                     <a href="">#nlw</a>{' '}
-                    <a href="">#rocketseat </a>
+                    <a href="">#rocketseat</a>
                 </p>
             </div>
 
@@ -38,6 +39,13 @@ export function Post() {
                     <button type='submit'>Publicar</button>
                 </footer>
             </form>
+
+            <div className={styles.commentList}>
+                <Comment />
+                <Comment />
+                <Comment />
+
+            </div>
         </article>
     )
 }
