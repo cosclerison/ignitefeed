@@ -23,9 +23,9 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/cosclerison.png',
-      name: 'Puma Hard',
-      role: 'Developer'
+      avatarUrl: 'https://github.com/julianadiasvs.png',
+      name: 'Juliana Dias',
+      role: 'Estudent Dev'
     },
     content: [
       { type: 'paragraph', content: 'Fala galeraa 👋', },
