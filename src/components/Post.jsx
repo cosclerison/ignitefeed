@@ -38,9 +38,15 @@ export function Post({ author, publishedAt, content }) {
     function handleNewCommentChange() {
         setNewCommentText(event.target.value)
     }
-// Função para deletar os comentario, o mesmo se comunica por propriedade com o componet 
-    function deleteComment(comment) {
-        console.log(`Deletar comentario ${comment}`)
+
+    function deleteComment(commentToDelete) {
+        const commentsWithoutDeletedOne = comments.filter(comment => {
+            return comment !== commentToDelete;
+            
+        })
+        console.log(comments);
+
+        setComments(commentsWithoutDeletedOne);
     }
 
     return (
